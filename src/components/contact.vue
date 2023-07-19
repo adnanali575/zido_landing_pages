@@ -111,7 +111,7 @@ form {
 
 .input-box,
 .textArea-box {
-    margin: 20px 0px;
+    margin: 10px 0px;
 }
 
 .textArea-box {
@@ -137,7 +137,7 @@ form textarea {
 }
 
 form input {
-    height: 40px;
+    height: 60px;
 }
 
 form textarea {
@@ -199,17 +199,23 @@ form textarea {
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        padding: 0px;
     }
 
     form .input-box,
     form .textArea-box {
-        width: 100%;
+        width: 90%;
         display: flex;
         flex-direction: column;
     }
 
+
+.send-btn{
+    margin: auto;
+}
+
     form .input-box input, form .textArea-box textarea{
-        width: auto;
+        flex-grow: 1;
     }
 
 

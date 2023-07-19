@@ -200,6 +200,12 @@ header {
 /* --------------------------------------------------------------------- */
 
 @media(max-width: 1090px) {
+    header{
+        min-height: 50px;
+    }
+    .logo{
+        min-height: 50px;
+    }
     .outer-box {
         display: flex;
         flex-direction: column;
