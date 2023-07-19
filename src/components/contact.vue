@@ -177,7 +177,7 @@ form textarea {
     }
 
     form {
-        width: 80%;
+        padding: 20px;
     }
 
     .send-btn {
@@ -204,6 +204,12 @@ form textarea {
     form .input-box,
     form .textArea-box {
         width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    form .input-box input, form .textArea-box textarea{
+        width: auto;
     }
 
 
